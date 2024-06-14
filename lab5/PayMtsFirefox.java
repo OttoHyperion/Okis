@@ -38,6 +38,6 @@ public class PayMtsFirefox {
         cssPayMTS1 = driver.findElement(By.cssSelector(".mts16-mainmenu__lv1-link"));
         cssPayMTS1.click();
 
-        //driver.quit();
+        driver.quit();
     }
 }
