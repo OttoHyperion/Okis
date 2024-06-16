@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test General" thread-count="4">
+
+    <test name="All">
+        <groups>
+            <run>
+                <include name="All"/>
+                <include name="General"/>
+                <include name="Login"/>
+                <include name="Cat"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.RbtTest"></class>
+        </classes>
+
+    </test>
+</suite>
