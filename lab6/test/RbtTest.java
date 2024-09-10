@@ -126,7 +126,7 @@ public class RbtTest {
     @Test(groups = "Login")
     public void testEnterPhone(){
         rbtLogin.goTOLogPage();
-        rbtLogin.enterPhone("9223501095");
+        rbtLogin.enterPhone("gg");
         boolean button = rbtLogin.goButton();
         String massage = null;
         if(button == true){
